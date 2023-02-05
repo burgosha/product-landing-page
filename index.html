@@ -4,14 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Super Market</title>
 </head>
 <body>
     <header id="header">
-        <img id="header-img">
         <nav id="nav-bar">
-            <a href=""></a><a href=""></a><a href=""></a>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart-discount" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#6D22C8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="6" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M17 17h-11v-14h-2" />
+                    <path d="M20 6l-1 7h-13" />
+                    <path d="M10 10l6 -6" />
+                    <circle cx="10.5" cy="4.5" r=".5" />
+                    <circle cx="15.5" cy="9.5" r=".5" />
+                  </svg>
+                <p class="logo-text">SuperMarket</p>
+            </div>
+            <div class="nav-links">
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#howitworks">How It Works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+                <a class="nav-link" href="#suscribe">Suscribe</a>
+            </div>
         </nav>
+        <div class="header-info">
+            <div class="header-description">
+                <h1>Always Fresh Products</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices nulla lectus, sit amet eleifend dui egestas ac.</p>
+                <button>Order Now</button>
+            </div>
+            <img id="header-img" href="" alt="Man shopping">
+        </div>
     </header>
+    <main>
+        <section id="#about"></section>
+        <section id="#features"></section>
+        <section id="#howitworks"></section>
+        <section id="#pricing"></section>
+        <section id="#suscribe">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <input type="submit" value="Get Started" class="btn">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
